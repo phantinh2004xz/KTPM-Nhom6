@@ -1,0 +1,37 @@
+.cart1{
+    position: absolute;
+    width:600px;
+    display:none;
+    top: 0;
+    right: 0;
+   
+    z-index: 1;
+    margin-top: 70px;
+    // padding: 20px;
+    // background:red ;
+    transform: translateX(70px);
+    
+    
+
+    &__table{
+        width: 100%;
+
+    }
+    &__form{
+        background: #FFFF99;
+       border-radius: 15px;
+        height: 400px;
+        overflow: auto;
+        padding: 20px;
+        margin-top: 10px;
+        // transition: 2s;
+        // animation-duration: 2s;
+
+    }
+    
+}
+.top-act__hover:hover + .cart1{
+    display:block;
+
+
+}

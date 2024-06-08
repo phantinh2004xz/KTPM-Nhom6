@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+    color:inherit;
+
+}
+
+ul {
+    list-style: none;
+    }
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: Gordita, sans-serif;
+    color: var(--text-color);
+    background: (--body-gb);
+}
+button{
+    border:none;
+    outline:none;
+    background:transparent;
+    padding: 0;
+    cursor:pointer;
+}
+a,button, input, textarea, select{
+    font-family: inherit;
+    color:inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+.icon{
+    filter:var(--icon-color);
+}
+// input
+input{
+    border:none;
+}

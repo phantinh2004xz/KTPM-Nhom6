@@ -1,0 +1,32 @@
+@use "../abstracts";
+
+.home{
+    &__container{
+        margin-top: 40px;
+    }
+    &__heading{
+        margin-bottom: 20px;
+        font-size: 2.4rem;
+    
+        font-weight: 700;
+        line-height:141.667%; /* 141.667% */
+    }
+    &__cate{
+        --grid-guiter-x:51px;
+        @include abstracts.screen(lg){
+            --grid-guiter-y:24px;
+        }
+        @include abstracts.screen(md){
+            --grid-guiter-y:20px;
+        }
+
+    }
+    &__row{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        
+    }
+}
